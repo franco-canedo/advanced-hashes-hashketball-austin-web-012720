@@ -149,6 +149,7 @@ end
 
 def team_names
   game_hash.each do |place, team|
+    binding.pry
     return team[:team_name]
   end 
 end 
