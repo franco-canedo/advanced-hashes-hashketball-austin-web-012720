@@ -140,7 +140,7 @@ def shoe_size(player)
 end
 
 def team_colors(team)
-  game_hash.each do |place|
+  game_hash.each do |place1|
     binding.pry
   end
 end
