@@ -117,8 +117,8 @@ def game_hash
   }
 end
 
-def num_scored_points 
-  
+def num_scored_points(player)
+  hash = game_hash
 end 
 
 
