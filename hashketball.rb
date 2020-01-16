@@ -141,7 +141,7 @@ end
 
 def team_colors(team)
   game_hash.each do |place|
-    
+    binding.pry
   end
 end
 
