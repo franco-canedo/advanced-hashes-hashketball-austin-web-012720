@@ -162,8 +162,8 @@ def player_numbers(team_given)
       team3[:players].each do |player_hash|
         array_numbers << player_hash[:number]
       end
-    end 
-  end 
+    end #if 
+  end #do
 end
 
 
