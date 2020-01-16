@@ -153,6 +153,7 @@ def team_names
     binding.pry
      array << team2[:team_name]
   end 
+  array
 end 
 
 
