@@ -164,6 +164,7 @@ def player_numbers(team_given)
       end
     end #if 
   end #do
+  array_numbers.sort
 end
 
 
