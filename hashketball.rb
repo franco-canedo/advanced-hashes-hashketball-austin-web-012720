@@ -150,8 +150,7 @@ end
 def team_names
   array = []
   game_hash.each do |place, team2|
-    #binding.pry
-     array << team2[:team_name]
+    array << team2[:team_name]
   end 
   array
 end 
