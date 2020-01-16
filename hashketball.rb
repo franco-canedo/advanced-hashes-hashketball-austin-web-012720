@@ -167,6 +167,10 @@ def player_numbers(team_given)
   array_numbers.sort
 end
 
+def player_stats(player)
+  
+end 
+
 
 
 
