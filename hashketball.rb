@@ -155,8 +155,14 @@ def team_names
   array
 end 
 
-def player_numbers
-  
+def player_numbers(team_given)
+  array_numbers = []
+  game_hash.each do |place, team3|
+    if team3[:team_name] == team_given
+      team3[:players].each do |player_hash|
+        array_numbers << player_hash[:number]
+    end
+  end 
 end
 
 
