@@ -188,6 +188,7 @@ def player_stats(player)
 end 
 
 def big_shoe_rebounds
+  show_sizes = []
   game_hash.each do |place, team5|
     team5[:players].each do |player_hash|
       
