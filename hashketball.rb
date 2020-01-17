@@ -172,7 +172,8 @@ def player_stats(player)
   game_hash.each do |place, team4|
      team4[:players].each do |player_hash|
        if player_hash[:player_name] == player
-         hash << player_hash[:number]
+         hash[:number] = player_hash[:number]
+       
        end
     end
   end 
