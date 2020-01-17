@@ -168,10 +168,11 @@ def player_numbers(team_given)
 end
 
 def player_stats(player)
+  hash = {}
   game_hash.each do |place, team4|
      team4[:players].each do |player_hash|
        if player_hash[:player_name] == player
-         
+         hash << player_hash[:number]
        end
     end
   end 
