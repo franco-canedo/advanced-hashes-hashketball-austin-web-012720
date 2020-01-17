@@ -173,6 +173,13 @@ def player_stats(player)
      team4[:players].each do |player_hash|
        if player_hash[:player_name] == player
          hash[:number] = player_hash[:number]
+         hash[:shoe] = player_hash[:shoe]
+         hash[:points] = player_hash[:points]
+         hash[:rebounds] = player_hash[:rebounds]
+         hash[:assists] = player_hash[:assists]
+         hash[:steals] = player_hash[:steals]
+         hash[:blocks] = player_hash[:blocks]
+         hash[:slam_dunks] = player_hash[:slam_dunks]
        
        end
     end
