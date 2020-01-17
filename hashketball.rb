@@ -197,7 +197,7 @@ def big_shoe_rebounds
   
   game_hash.each do |place, team5|
     team5[:players].each do |player_hash|
-      if player_hash[:shoe] == shoe_sizes[-1].sort
+      if player_hash[:shoe] == shoe_sizes.sort[-1]
         return player_hash[:rebounds]
       end
     end
