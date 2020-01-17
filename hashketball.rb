@@ -173,6 +173,7 @@ def player_stats(player)
        if player_hash[:player_name] == player
          return nil
      end
+    end
   end 
 end 
 
